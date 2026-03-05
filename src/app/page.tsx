@@ -232,18 +232,6 @@ export default function Home() {
                 </div>
               </button>
             </div>
-
-            <div className="mt-12 p-6 bg-black/40 rounded-xl max-w-md mx-auto border border-white/5">
-              <p className="text-sm text-text-light font-medium mb-3 uppercase tracking-widest">Acesso Teste</p>
-              <div className="flex justify-between items-center text-left py-2 border-b border-border/50">
-                <span className="text-gray-400 text-sm">Usuário (Admin):</span>
-                <span className="text-accent font-mono text-sm">admin@bfpass.com</span>
-              </div>
-              <div className="flex justify-between items-center text-left py-2">
-                <span className="text-gray-400 text-sm">Senha:</span>
-                <span className="text-white font-mono text-sm">admin123</span>
-              </div>
-            </div>
           </motion.div>
         </div>
       </section>
