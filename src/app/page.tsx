@@ -28,11 +28,6 @@ export default function Home() {
     },
   ];
 
-  const appScreenshots = [
-    { title: 'Painel Digital', color: 'from-primary-dark to-surface', delay: 0 },
-    { title: 'Escâner QR Code', color: 'from-surface to-primary-dark', delay: 0.2 },
-    { title: 'Treinos em Vídeo', color: 'from-primary-dark to-[#181818]', delay: 0.4 },
-  ];
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -175,23 +170,25 @@ export default function Home() {
             </div>
 
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end gap-4 sm:gap-6">
-              {appScreenshots.map((screen, idx) => (
+              {[
+                { src: '/WhatsApp Image 2026-03-19 at 03.19.26.jpeg', delay: 0, offset: false },
+                { src: '/WhatsApp Image 2026-03-19 at 03.19.33.jpeg', delay: 0.2, offset: true },
+                { src: '/WhatsApp Image 2026-03-19 at 03.19.40.jpeg', delay: 0.4, offset: false },
+              ].map((screen, idx) => (
                 <motion.div
                   key={idx}
                   initial={{ opacity: 0, y: 50 }}
-                  whileInView={{ opacity: 1, y: idx % 2 === 0 ? 0 : 30 }}
+                  whileInView={{ opacity: 1, y: screen.offset ? 30 : 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: screen.delay, duration: 0.6 }}
-                  className={`relative w-[140px] h-[300px] sm:w-[180px] sm:h-[380px] rounded-[2rem] border-[6px] border-border bg-gradient-to-br ${screen.color} shadow-2xl overflow-hidden mt-${idx % 2 === 0 ? '0' : '12'}`}
+                  className={`relative w-[120px] sm:w-[150px] rounded-[2rem] border-[4px] border-border shadow-2xl overflow-hidden shrink-0 ${screen.offset ? 'mt-12' : ''}`}
                 >
-                  <div className="absolute top-2 left-1/2 -translate-x-1/2 w-1/3 h-4 bg-border rounded-full"></div>
-                  <div className="w-full h-full p-4 flex flex-col justify-end">
-                    <div className="w-full h-1/3 bg-background/50 backdrop-blur-md rounded-xl p-3 flex flex-col gap-2">
-                      <div className="w-2/3 h-2 bg-white/20 rounded-full"></div>
-                      <div className="w-1/2 h-2 bg-white/20 rounded-full"></div>
-                      <div className="w-full mt-auto h-8 bg-primary rounded-lg"></div>
-                    </div>
-                  </div>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={screen.src}
+                    alt={`BF-Pass screenshot ${idx + 1}`}
+                    className="w-full h-auto block"
+                  />
                 </motion.div>
               ))}
             </div>
