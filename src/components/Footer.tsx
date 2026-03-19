@@ -35,7 +35,7 @@ export function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#download" className="text-text-secondary hover:text-accent text-sm transition-colors">
+                                <Link href="/instalar" className="text-text-secondary hover:text-accent text-sm transition-colors">
                                     Baixar App
                                 </Link>
                             </li>

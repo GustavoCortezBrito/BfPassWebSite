@@ -82,7 +82,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <Link href="#download" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-full font-bold text-lg transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/30">
+            <Link href="/instalar" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-full font-bold text-lg transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/30">
               <Download size={20} />
               Baixar Agora
             </Link>
@@ -217,20 +217,31 @@ export default function Home() {
               Baixe o aplicativo BF-Pass agora e faça seu cadastro gratuito.
             </p>
 
-            <div className="flex flex-col sm:flex-row justify-center gap-6">
-              <button className="flex items-center justify-center gap-4 bg-black text-white px-8 py-4 rounded-xl border border-border hover:border-white/20 hover:bg-[#111] transition-all">
-                <div className="flex flex-col items-start translate-y-[-2px]">
-                  <span className="text-[10px] uppercase tracking-wider text-gray-400">Descarregar na</span>
-                  <span className="font-semibold text-lg leading-none">App Store</span>
+            <div className="flex flex-col items-center gap-4">
+              <Link
+                href="/instalar"
+                className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-full font-bold text-lg transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/30"
+              >
+                <Download size={20} />
+                Ver como instalar
+              </Link>
+              <p className="text-text-light text-sm">
+                Disponível para iPhone e Android — sem App Store ou Google Play.
+              </p>
+              <div className="flex items-center gap-3 mt-2">
+                <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-border opacity-60 cursor-not-allowed select-none">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-white shrink-0" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                  </svg>
+                  <span className="text-xs text-text-light">App Store — em breve</span>
                 </div>
-              </button>
-
-              <button className="flex items-center justify-center gap-4 bg-black text-white px-8 py-4 rounded-xl border border-border hover:border-white/20 hover:bg-[#111] transition-all">
-                <div className="flex flex-col items-start translate-y-[-2px]">
-                  <span className="text-[10px] uppercase tracking-wider text-gray-400">Disponível no</span>
-                  <span className="font-semibold text-lg leading-none">Google Play</span>
+                <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-border opacity-60 cursor-not-allowed select-none">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-accent shrink-0" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.523 15.341 14.63 10.5l2.893-4.841a.5.5 0 0 0-.863-.5L13.767 10H10.23L7.34 5.159a.5.5 0 0 0-.863.5L9.37 10.5l-2.893 4.841a.5.5 0 0 0 .863.5L10.233 11h3.534l2.893 4.841a.5.5 0 0 0 .863-.5zM8.5 18a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm7 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"/>
+                  </svg>
+                  <span className="text-xs text-text-light">Google Play — em breve</span>
                 </div>
-              </button>
+              </div>
             </div>
           </motion.div>
         </div>

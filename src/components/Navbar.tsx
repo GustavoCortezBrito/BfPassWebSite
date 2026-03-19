@@ -48,7 +48,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <Link
-                        href="#download"
+                        href="/instalar"
                         className="bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all hover:scale-105 active:scale-95 shadow-md shadow-primary/20"
                     >
                         Baixar App
@@ -86,8 +86,8 @@ export function Navbar() {
                                 </Link>
                             ))}
                             <div className="pt-4 mt-2 border-t border-border">
-                                <Link
-                                    href="#download"
+                            <Link
+                                    href="/instalar"
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="flex justify-center w-full bg-primary hover:bg-primary-dark text-white px-5 py-3 rounded-xl font-semibold transition-colors"
                                 >
