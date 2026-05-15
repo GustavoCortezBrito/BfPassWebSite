@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = 'BF-Pass — Seu passaporte para o bem-estar';
+export const alt = 'CoreClub — Seu passaporte para o bem-estar';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -16,7 +16,7 @@ export default function OGImage() {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          background: 'linear-gradient(135deg, #0D4E14 0%, #121212 60%)',
+          background: 'linear-gradient(135deg, #0E1C12 0%, #121412 60%)',
           fontFamily: 'sans-serif',
           position: 'relative',
         }}
@@ -30,8 +30,8 @@ export default function OGImage() {
             width: 400,
             height: 400,
             borderRadius: '50%',
-            background: '#4CAF50',
-            opacity: 0.15,
+            background: '#E4D5B7',
+            opacity: 0.1,
             filter: 'blur(80px)',
           }}
         />
@@ -43,8 +43,8 @@ export default function OGImage() {
             width: 300,
             height: 300,
             borderRadius: '50%',
-            background: '#1B5E20',
-            opacity: 0.25,
+            background: '#14261A',
+            opacity: 0.3,
             filter: 'blur(60px)',
           }}
         />
@@ -58,10 +58,10 @@ export default function OGImage() {
           }}
         >
           <span style={{ fontSize: 64, fontWeight: 900, color: '#FFFFFF', letterSpacing: '-2px' }}>
-            BF
+            Core
           </span>
-          <span style={{ fontSize: 64, fontWeight: 900, color: '#4CAF50', letterSpacing: '-2px' }}>
-            pass
+          <span style={{ fontSize: 64, fontWeight: 900, color: '#E4D5B7', letterSpacing: '-2px' }}>
+            Club
           </span>
         </div>
 
@@ -84,7 +84,7 @@ export default function OGImage() {
         <div
           style={{
             fontSize: 22,
-            color: '#B0BEC5',
+            color: '#A3B4A9',
             textAlign: 'center',
             maxWidth: 700,
             lineHeight: 1.5,
@@ -100,8 +100,8 @@ export default function OGImage() {
             display: 'flex',
             alignItems: 'center',
             gap: 10,
-            background: 'rgba(76,175,80,0.15)',
-            border: '1px solid rgba(76,175,80,0.4)',
+            background: 'rgba(228,213,183,0.1)',
+            border: '1px solid rgba(228,213,183,0.3)',
             borderRadius: 999,
             padding: '10px 24px',
           }}
@@ -111,10 +111,10 @@ export default function OGImage() {
               width: 10,
               height: 10,
               borderRadius: '50%',
-              background: '#4CAF50',
+              background: '#E4D5B7',
             }}
           />
-          <span style={{ fontSize: 18, color: '#81C784', fontWeight: 600 }}>
+          <span style={{ fontSize: 18, color: '#E4D5B7', fontWeight: 600 }}>
             Clube de benefícios completo
           </span>
         </div>

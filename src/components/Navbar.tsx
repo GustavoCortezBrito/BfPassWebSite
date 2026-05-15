@@ -32,7 +32,7 @@ export function Navbar() {
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-1 z-50">
                     <span className="text-2xl font-black tracking-tight text-white">
-                        BF<span className="text-accent">pass</span>
+                        Core<span className="text-accent">Club</span>
                     </span>
                 </Link>
 

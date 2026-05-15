@@ -3,8 +3,8 @@ import { Mail, Shield, AlertTriangle, Fingerprint } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: 'Exclusão de Conta | BF-Pass',
-    description: 'Instruções oficiais sobre como solicitar a exclusão da sua conta e dados do aplicativo BF-Pass.',
+    title: 'Exclusão de Conta | CoreClub',
+    description: 'Instruções oficiais sobre como solicitar a exclusão da sua conta e dados do aplicativo CoreClub.',
 };
 
 export default function AccountDeletion() {
@@ -24,7 +24,7 @@ export default function AccountDeletion() {
                         Gerencie sua <span className="text-red-500">Privacidade</span>.
                     </h1>
                     <p className="text-xl text-text-secondary leading-relaxed">
-                        Nós levamos a sua privacidade a sério. Se você deseja excluir permanentemente sua conta e todos os dados associados do aplicativo BF-Pass, siga os passos abaixo.
+                        Nós levamos a sua privacidade a sério. Se você deseja excluir permanentemente sua conta e todos os dados associados do aplicativo CoreClub, siga os passos abaixo.
                     </p>
                 </div>
 
@@ -43,7 +43,7 @@ export default function AccountDeletion() {
                             <div>
                                 <h3 className="text-lg font-semibold text-white mb-1">Envie um e-mail</h3>
                                 <p className="text-text-secondary">
-                                    Envie um e-mail a partir da <strong>mesma conta de e-mail</strong> que você usou para se cadastrar no aplicativo BF-Pass. O assunto do e-mail deve ser: <code className="bg-background px-2 py-0.5 rounded text-red-400">Solicitação de Exclusão de Conta</code>.
+                                    Envie um e-mail a partir da <strong>mesma conta de e-mail</strong> que você usou para se cadastrar no aplicativo CoreClub. O assunto do e-mail deve ser: <code className="bg-background px-2 py-0.5 rounded text-red-400">Solicitação de Exclusão de Conta</code>.
                                 </p>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function AccountDeletion() {
                                     Direcione sua solicitação diretamente para o nosso responsável pelo tratamento de dados corporativos no endereço abaixo:
                                 </p>
                                 <a
-                                    href="mailto:viniciuscardosonutribarretos@gmail.com?subject=Solicitação de Exclusão de Conta - BF-Pass"
+                                    href="mailto:viniciuscardosonutribarretos@gmail.com?subject=Solicitação de Exclusão de Conta - CoreClub"
                                     className="inline-flex items-center gap-2 bg-background border border-border px-4 py-3 rounded-xl text-white hover:border-red-500/50 hover:bg-white/5 transition-all group"
                                 >
                                     <Mail className="text-text-light group-hover:text-red-400 transition-colors" size={20} />

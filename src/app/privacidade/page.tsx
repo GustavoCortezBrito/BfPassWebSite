@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Política de Privacidade | BF-Pass',
-    description: 'Saiba como coletamos, usamos e protegemos seus dados no aplicativo BF-Pass.',
+    title: 'Política de Privacidade | CoreClub',
+    description: 'Saiba como coletamos, usamos e protegemos seus dados no aplicativo CoreClub.',
 };
 
 export default function PrivacyPolicy() {
@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
             title: '1. Informações que Coletamos',
             content: (
                 <>
-                    <p>Coletamos as seguintes informações quando você utiliza o BF-Pass:</p>
+                    <p>Coletamos as seguintes informações quando você utiliza o CoreClub:</p>
                     <ul className="list-disc pl-5 mt-2 space-y-1 mb-4 text-text-secondary">
                         <li>Nome completo e endereço de e-mail;</li>
                         <li>Senha (armazenada de forma criptografada);</li>
@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
                 <>
                     <p className="text-text-secondary mb-4">Em caso de dúvidas ou solicitações relacionadas à privacidade dos seus dados, entre em contato conosco:</p>
                     <div className="bg-surface border border-border p-4 rounded-xl inline-block">
-                        <p className="text-white font-mono">contato@bfpass.com.br</p>
+                        <p className="text-white font-mono">viniciuscardosonutribarretos@gmail.com</p>
                         <p className="text-sm text-text-light mt-1">Respondemos em até 5 dias úteis.</p>
                     </div>
                 </>
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
                         Como cuidamos dos <span className="text-accent">seus dados</span>.
                     </h1>
                     <p className="text-xl text-text-secondary leading-relaxed">
-                        Esta Política de Privacidade descreve como o BF-Pass coleta, usa e protege as informações dos usuários.
+                        Esta Política de Privacidade descreve como o CoreClub coleta, usa e protege as informações dos usuários.
                     </p>
                     <p className="text-sm text-text-light mt-6 font-mono">
                         Última atualização: Março de 2026

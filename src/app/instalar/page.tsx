@@ -9,7 +9,7 @@ const iosSteps = [
     icon: Share2,
     step: '01',
     title: 'Abra no Safari',
-    description: 'Acesse o site do BF-Pass pelo Safari (não funciona no Chrome ou Firefox no iPhone). Toque no ícone de compartilhar — o quadrado com a seta para cima na barra inferior.',
+    description: 'Acesse o site do CoreClub pelo Safari (não funciona no Chrome ou Firefox no iPhone). Toque no ícone de compartilhar — o quadrado com a seta para cima na barra inferior.',
   },
   {
     icon: PlusSquare,
@@ -21,7 +21,7 @@ const iosSteps = [
     icon: CheckCircle2,
     step: '03',
     title: 'Confirme e pronto',
-    description: 'Toque em "Adicionar" no canto superior direito. O ícone do BF-Pass vai aparecer na sua tela inicial como um app nativo.',
+    description: 'Toque em "Adicionar" no canto superior direito. O ícone do CoreClub vai aparecer na sua tela inicial como um app nativo.',
   },
 ];
 
@@ -30,7 +30,7 @@ const androidSteps = [
     icon: Chrome,
     step: '01',
     title: 'Abra no Chrome',
-    description: 'Acesse o site do BF-Pass pelo Google Chrome no seu Android.',
+    description: 'Acesse o site do CoreClub pelo Google Chrome no seu Android.',
   },
   {
     icon: Share2,
@@ -67,10 +67,10 @@ export default function InstalarPage() {
             <Smartphone className="w-10 h-10 text-accent" />
           </div>
           <h1 className="text-4xl md:text-5xl font-black text-white mb-4">
-            Instale o BF-Pass
+            Instale o CoreClub
           </h1>
           <p className="text-text-secondary text-lg max-w-xl mx-auto leading-relaxed">
-            O BF-Pass é um PWA — funciona como app nativo sem precisar da App Store ou Google Play. Veja como instalar no seu celular.
+            O CoreClub é um PWA — funciona como app nativo sem precisar da App Store ou Google Play. Veja como instalar no seu celular.
           </p>
         </motion.div>
 
@@ -188,7 +188,7 @@ export default function InstalarPage() {
           <CheckCircle2 className="w-8 h-8 text-accent mx-auto mb-3" />
           <h3 className="font-bold text-white mb-2">Por que não tem na App Store?</h3>
           <p className="text-text-secondary text-sm leading-relaxed max-w-lg mx-auto">
-            O BF-Pass é um PWA (Progressive Web App). Funciona como um app nativo — com ícone na tela inicial, sem barra de navegador — mas sem precisar passar pela App Store ou Google Play. Mais rápido, mais simples.
+            O CoreClub é um PWA (Progressive Web App). Funciona como um app nativo — com ícone na tela inicial, sem barra de navegador — mas sem precisar passar pela App Store ou Google Play. Mais rápido, mais simples.
           </p>
         </motion.div>
 
@@ -207,7 +207,7 @@ export default function InstalarPage() {
           </div>
           <h3 className="font-bold text-white mb-2">Chegando na App Store e Google Play</h3>
           <p className="text-text-secondary text-sm leading-relaxed max-w-lg mx-auto">
-            O BF-Pass estará disponível em breve nas lojas oficiais. Por enquanto, instale pelo navegador usando o tutorial acima — é rápido e funciona igual.
+            O CoreClub estará disponível em breve nas lojas oficiais. Por enquanto, instale pelo navegador usando o tutorial acima — é rápido e funciona igual.
           </p>
           <div className="flex items-center justify-center gap-4 mt-5">
             <div className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-background border border-border opacity-60 cursor-not-allowed select-none">

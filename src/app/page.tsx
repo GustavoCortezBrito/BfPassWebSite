@@ -50,7 +50,7 @@ export default function Home() {
             <span className="flex h-2.5 w-2.5 rounded-full bg-accent relative">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
             </span>
-            <span className="text-sm font-medium text-text-secondary">O seu app definitivo de benefícios</span>
+            <span className="text-sm font-medium text-text-secondary">O seu clube definitivo de benefícios</span>
           </motion.div>
 
           <motion.h1
@@ -186,7 +186,7 @@ export default function Home() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={screen.src}
-                    alt={`BF-Pass screenshot ${idx + 1}`}
+                    alt={`CoreClub screenshot ${idx + 1}`}
                     className="w-full h-auto block"
                   />
                 </motion.div>
@@ -211,7 +211,7 @@ export default function Home() {
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Pronto para começar?</h2>
             <p className="text-lg text-text-secondary mb-10 max-w-2xl mx-auto">
-              Baixe o aplicativo BF-Pass agora e faça seu cadastro gratuito.
+              Baixe o aplicativo CoreClub agora e faça seu cadastro gratuito.
             </p>
 
             <div className="flex flex-col items-center gap-4">

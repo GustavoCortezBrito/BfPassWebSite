@@ -12,7 +12,7 @@ export function Footer() {
                     <div className="md:col-span-2">
                         <Link href="/" className="inline-block mb-4">
                             <span className="text-2xl font-black tracking-tight text-white">
-                                BF<span className="text-accent">pass</span>
+                                Core<span className="text-accent">Club</span>
                             </span>
                         </Link>
                         <p className="text-text-secondary text-sm leading-relaxed max-w-sm">
@@ -74,7 +74,7 @@ export function Footer() {
 
                 <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-text-light text-xs text-center md:text-left">
-                        &copy; {currentYear} BF-Pass. Todos os direitos reservados.
+                        &copy; {currentYear} CoreClub. Todos os direitos reservados.
                     </p>
                     <p className="text-text-light text-xs">
                         CNPJ: —
